@@ -29,6 +29,26 @@
       "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Pooja%20Sharma&backgroundColor=059669",
       "id": "usr-1790705256586-azoe",
       "createdAt": "2026-09-29T18:07:36.586Z"
+    },
+    {
+      "name": "renuka nikam",
+      "email": "renukan691@gmail.com",
+      "phone": "9359817913",
+      "passwordHash": "$2b$10$1/goQTHyoIghw0Sg8raYluZ73CFnltXgg.zW9dEfZGsNIO9FfRUla",
+      "role": "CUSTOMER",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=renuka%20nikam&backgroundColor=059669",
+      "id": "usr-1790705765118-h6hf",
+      "createdAt": "2026-09-29T18:16:05.118Z"
+    },
+    {
+      "name": "renuka tiwari",
+      "email": "renukanikam620@gmail.com",
+      "phone": "9359817913",
+      "passwordHash": "$2b$10$UrJg4keCDPUCWy9ueRjiVu/oBmiwAoRGsoPeI0AHh5LsUsxCE/zfS",
+      "role": "OPERATOR",
+      "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=renuka%20tiwari&backgroundColor=059669",
+      "id": "usr-1790706029779-itku",
+      "createdAt": "2026-09-29T18:20:29.779Z"
     }
   ],
   "machines": [
@@ -142,7 +162,7 @@
       "categoryName": "Snacks & Crisps",
       "price": 20,
       "mrp": 20,
-      "stock": 12,
+      "stock": 11,
       "machineId": "VG-YTL-001",
       "status": "AVAILABLE",
       "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?auto=format&fit=crop&w=600&q=80",
@@ -153,7 +173,7 @@
       "isBestseller": true,
       "isVegetarian": true,
       "createdAt": "2026-09-01T10:00:00.000Z",
-      "updatedAt": "2026-09-29T18:08:12.118Z"
+      "updatedAt": "2026-09-29T18:18:12.358Z"
     },
     {
       "id": "prod-002",
@@ -163,7 +183,7 @@
       "categoryName": "Snacks & Crisps",
       "price": 20,
       "mrp": 20,
-      "stock": 9,
+      "stock": 8,
       "machineId": "VG-YTL-001",
       "status": "AVAILABLE",
       "image": "https://images.unsplash.com/photo-1621447504864-d8686e12698c?auto=format&fit=crop&w=600&q=80",
@@ -174,7 +194,7 @@
       "isBestseller": true,
       "isVegetarian": true,
       "createdAt": "2026-09-01T10:00:00.000Z",
-      "updatedAt": "2026-09-28T10:00:00.000Z"
+      "updatedAt": "2026-09-29T18:18:12.358Z"
     },
     {
       "id": "prod-003",
@@ -184,7 +204,7 @@
       "categoryName": "Snacks & Crisps",
       "price": 20,
       "mrp": 20,
-      "stock": 3,
+      "stock": 2,
       "machineId": "VG-YTL-001",
       "status": "AVAILABLE",
       "image": "https://images.unsplash.com/photo-1599490659213-e2b9527bd087?auto=format&fit=crop&w=600&q=80",
@@ -195,7 +215,7 @@
       "isBestseller": true,
       "isVegetarian": true,
       "createdAt": "2026-09-01T10:00:00.000Z",
-      "updatedAt": "2026-09-28T10:00:00.000Z"
+      "updatedAt": "2026-09-29T18:18:12.358Z"
     },
     {
       "id": "prod-004",
@@ -574,6 +594,56 @@
     }
   ],
   "orders": [
+    {
+      "customerId": "usr-1790705765118-h6hf",
+      "customerName": "renuka nikam",
+      "customerPhone": "+91 98765 00000",
+      "customerEmail": "renukan691@gmail.com",
+      "machineId": "VG-YTL-001",
+      "machineName": "GCOE Yavatmal — Tech Block A",
+      "machineLocation": "Government College of Engineering, Main Academic Foyer, Yavatmal",
+      "items": [
+        {
+          "id": "item-1790705892346-9pje",
+          "productId": "prod-002",
+          "productName": "Lay's India's Magic Masala",
+          "productImage": "https://images.unsplash.com/photo-1621447504864-d8686e12698c?auto=format&fit=crop&w=600&q=80",
+          "unitPrice": 20,
+          "quantity": 1,
+          "subtotal": 20,
+          "unit": "50g"
+        },
+        {
+          "id": "item-1790705892347-1v5d",
+          "productId": "prod-001",
+          "productName": "Lay's Classic Salted Potato Chips",
+          "productImage": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?auto=format&fit=crop&w=600&q=80",
+          "unitPrice": 20,
+          "quantity": 1,
+          "subtotal": 20,
+          "unit": "50g"
+        },
+        {
+          "id": "item-1790705892347-l1jb",
+          "productId": "prod-003",
+          "productName": "Kurkure Masala Munch Crunchy Snacks",
+          "productImage": "https://images.unsplash.com/photo-1599490659213-e2b9527bd087?auto=format&fit=crop&w=600&q=80",
+          "unitPrice": 20,
+          "quantity": 1,
+          "subtotal": 20,
+          "unit": "75g"
+        }
+      ],
+      "totalAmount": 60,
+      "status": "CONFIRMED",
+      "paymentMethod": "UPI",
+      "paymentStatus": "PAID",
+      "id": "VGORD-60328",
+      "pickupOtp": "5706",
+      "dispenseStatus": "WAITING_FOR_DISPENSE",
+      "createdAt": "2026-09-29T18:18:12.358Z",
+      "updatedAt": "2026-09-29T18:18:12.358Z"
+    },
     {
       "customerId": "usr-cust-01",
       "customerName": "Aditya Patil",
